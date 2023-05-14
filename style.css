@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.flag {
+  height: 12rem;
+}
+
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.btn-close-modal{
+  border-radius: 50%;
+}
+
+/* 
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: white; }
+
+.parent-country {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  width: 22rem;
+  height: 25rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; }
+  .parent-country .header {
+    direction: ltr;
+    text-align: left;
+    padding-left: .2rem;
+    padding-right: .2rem; }
+    .parent-country .header .country-name {
+      font-size: 1.5rem;
+      letter-spacing: .1rem;
+      line-height: 20%; }
+  .parent-country .text {
+    font-family: "Tilt Neon", cursive;
+    padding-left: .5rem; }
+  .parent-country .data-item {
+    width: 100%;
+    align-items: center; }
+  .parent-country .row {
+    display: flex; }
+  .parent-country .img-container {
+    height: 30%;
+    width: 100%; }
+    .parent-country .img-container img {
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      object-fit: cover;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; } */
